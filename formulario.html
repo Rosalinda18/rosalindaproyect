@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <header>
+        <div class="contenedor">
+            <form action="guardar.php" method="POST">
+            <h1 class="icon-apple">disFruta</h1> 
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label> 
+            <nav class="menu">
+                <a href="index.html">INICIO</a>
+                <a href="productos.html">PRODUCTOS</a>
+                <a href="blog.html">BLOG</a>
+                <a href="formulario.html">FORMULARIO</a>
+            </nav>
+        </div>
+        
+        <br>
+        <div class="form">
+			<form action="guardar.php" method="POST">
+				<p>NOMBRE</p>
+				<label for="nombre">Su nombre</label>
+				<br>
+				<input type="text" name="nombre" placeholder="Nombre" required>
+				<p>CORREO</p>
+				<label for="correo">Direccion De Correo</label>
+				<br>
+				<input type="email" name="correo" placeholder="alguien@gmail.com" required>
+				<p>MENSAJE</p>
+				<label for="mensaje">SU MENSAJE</label>
+				<br>
+				<textarea name="mensaje" placeholder="Mensaje" required></textarea>
+				<br>
+				<br>
+				<input type="submit" value="ENVIAR">
+            </form>
+        </div>
+     </header>
+     
